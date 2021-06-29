@@ -5,7 +5,6 @@ print(d2)
 import json
 with open("dict2.json","w")as file:
     data=json.dump(d1,file,indent=4)
-    t=json.dump(d2,file,indent=4)
     print(data)
 file.close()
 
